@@ -1,0 +1,13 @@
+---
+connection_values:
+ host: localhost
+ port: 389
+ 
+auth_values:
+ auth_dn: cn=admin,dc=example,dc=com
+ auth_pwd: 123
+ 
+base_value:
+ users_suffix: ou=people,dc=example,dc=com
+ root_suffix: dc=example,dc=com
+...
